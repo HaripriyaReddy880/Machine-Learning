@@ -1,0 +1,16 @@
+Our black box for the "XOR" function now has three neurons in it. A collection of neurons connected together is a "network" of neurons. Thus, the "XOR" function has been created using a "neural network".
+      +------------------------------------------------------------+
+      |      "NAND"  +--------+                    "XOR" Function  |
+      | 1.0-->1.5--->|        |                                    |
+      |              |        |                                    |
+X --->|----> -0.5-->| Neuron  |-->Z2--                             |
+      |\             |        |       \                            |
+Y---->|-\--> -0.5-->|         |        \ "AND"  +--------+         |
+      |\ \           +--------+         ->0.5-->|        |         |
+      | \ \                                     | Neuron |--——>Z3—>| -->Z
+      |  \ \  "Or"   +--------+        -->0.5-->|        |         |
+      |   \ -->1.0-->|        |       /         +--------+         |
+      |    \         | Neuron |-->Z1--                             |
+      |     -->1.0-->|        |                                    |
+      |              +--------+                                    |
+      +------------------------------------------------------------+
